@@ -8,7 +8,7 @@ import PlayerContextProvider from "./context/PlayerContext";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Live-Music-steaming-app">
       <PlayerContextProvider>
         <App />
       </PlayerContextProvider>
